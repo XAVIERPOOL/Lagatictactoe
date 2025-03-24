@@ -1,0 +1,40 @@
+{
+  "name": "bucket-list-2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "@expo-google-fonts/press-start-2p": "^0.2.3",
+    "@expo/metro-runtime": "~4.0.1",
+    "@react-navigation/native": "^7.0.17",
+    "@react-navigation/stack": "^7.2.1",
+    "expo": "~52.0.37",
+    "expo-dev-client": "~5.0.12",
+    "expo-font": "~13.0.4",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-reanimated": "^3.17.1",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-screens": "^4.9.2",
+    "react-native-web": "~0.19.13",
+    "expo-splash-screen": "~0.29.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "eslint": "^8.57.1",
+    "eslint-config-expo": "~8.0.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.5.1"
+  },
+  "private": true
+}
